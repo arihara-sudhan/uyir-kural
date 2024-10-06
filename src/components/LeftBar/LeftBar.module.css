@@ -1,0 +1,8 @@
+.banner {
+    background-image: url("./assets/valluvar8.jpg");
+    height: 100vh;
+    width: 30%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

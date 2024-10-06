@@ -1,0 +1,11 @@
+.banner {
+    width: 80%;
+    color: black;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.bannerHeading {
+    font-size: 3vw;
+    padding: 1rem;
+}

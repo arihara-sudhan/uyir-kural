@@ -11,7 +11,7 @@ export default function MetaSelector(props) {
     const itemOptions = paal in Meta && iyal in Meta[paal] ? Meta[paal][iyal] : [];
 
     return (
-        <div>
+        <div className={style.optionBanner}>
             <select onChange={(e) => {
                 setPaal(e.target.value);
                 setIyal(Object.keys(Meta[e.target.value] || {})[0] || "");

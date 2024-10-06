@@ -1,4 +1,10 @@
-* {
-    font-size: 4vw;
-    color: black;
+.kural {
+    text-align: justify;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.kuralContainer {
+    margin: 1rem;
+    margin-bottom: 2rem;
 }

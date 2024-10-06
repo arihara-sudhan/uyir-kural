@@ -6,3 +6,7 @@ select {
     padding: 0.2rem;
     font-size: 1.2vw;
 }
+
+.optionBanner {
+    margin-bottom: 1rem;
+}

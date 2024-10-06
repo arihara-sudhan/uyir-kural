@@ -23,8 +23,13 @@ const KuralComponent = (props) => {
             {kurals ? (
                 kurals.map((kural, index) => (
                     <div key={index} className={style.kural}>
-                        <h3>{kural.vari1}</h3>
-                        <h3>{kural.vari2}</h3>
+                        <div className={style.kuralDiv}>
+                            <h1 className={style.numberCircle}>{kural.kural}</h1>
+                            <div>
+                                <h3>{kural.vari1}</h3>
+                                <h3>{kural.vari2}</h3>
+                            </div>
+                        </div>
                         <p>{kural.vilakkam}</p>
                     </div>
                 ))

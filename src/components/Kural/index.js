@@ -9,7 +9,6 @@ const KuralComponent = (props) => {
             try {
                 const response = await import(`./meta/${props.kural}.json`);
                 setKurals(response.default);
-                console.log(response.default);
             } catch (error) {
                 console.error("Error loading JSON:", error);
             }

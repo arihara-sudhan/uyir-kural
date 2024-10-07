@@ -5,10 +5,24 @@ import style from "./OptionsBanner.module.css";
 export default function MetaSelector(props) {
     const [paal, setPaal] = useState("அறம்");
     const [iyal, setIyal] = useState("பாயிரவியல்");
+    const [searchQn, setSearchQn] = useState("");
 
     const paalOptions = Object.keys(Meta);
     const iyalOptions = paal in Meta ? Object.keys(Meta[paal]) : [];
     const itemOptions = paal in Meta && iyal in Meta[paal] ? Meta[paal][iyal] : [];
+
+    const getKuralsForQuery = () => {
+        fetch(`http://127.0.0.1:8000/ask/${searchQn}`)
+            .then((resp)=>{
+                return resp.json()
+            })
+            .then((data)=>{
+                props.setKuralMatches(data);
+            })
+            .catch((e)=>{
+                console.error(e);
+            })
+    }
 
     return (
         <div className={style.optionBanner}>
@@ -38,6 +52,10 @@ export default function MetaSelector(props) {
                     </option>
                 ))}
             </select>
+            <div>
+                <input type="text" onChange={ (e)=> { setSearchQn(e.target.value) } } required/>
+                <button onClick={()=>{getKuralsForQuery(searchQn)}}>AI Search</button>
+            </div>
         </div>
     );
 }

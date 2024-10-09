@@ -24,12 +24,12 @@ const KuralComponent = (props) => {
                     <div key={index} className={style.kural}>
                         <div className={style.kuralDiv}>
                             <h1 className={style.numberCircle}>{kural.kural}</h1>
-                            <div>
+                            <div className={style.kural_here}>
                                 <h3>{kural.vari1}</h3>
                                 <h3>{kural.vari2}</h3>
                             </div>
                         </div>
-                        <p>{kural.vilakkam}</p>
+                        <p className={style.kuralVilakkam}>{kural.vilakkam}</p>
                     </div>
                 ))
             ) : (

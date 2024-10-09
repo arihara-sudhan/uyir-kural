@@ -8,3 +8,9 @@
     position: fixed;
 }
 
+@media (max-width: 1000px) {
+    .banner {
+        position: static;
+        display: block;
+    }
+}

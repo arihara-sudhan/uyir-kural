@@ -7,13 +7,34 @@ select {
     font-size: 1.2vw;
 }
 
+button {
+    background-color: var(--fg_color);
+}
+
 .optionBanner {
     margin-bottom: 1rem;
+}
+
+input, select {
+    background-color: var(--bg_color);
+}
+
+.aiSearchBox, button {
+    width: 20%;
+    border-radius: 0.1rem;
+    padding: 0.5%;
+}
+button {
+    width: 10%;
 }
 
 @media (max-width: 1000px) {
     select {
         width: 30%;
+        font-size: 3vw;
+    }
+    button {
+        border-radius: 0.1rem;
         font-size: 3vw;
     }
 }

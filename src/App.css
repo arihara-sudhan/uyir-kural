@@ -1,6 +1,9 @@
 .App {
     display: flex;
 }
+.App > * {
+    background-color: var(--txt-color);
+}
 
 @media (max-width: 1000px) {
     .App {

@@ -53,8 +53,8 @@ export default function MetaSelector(props) {
                 ))}
             </select>
             <div>
-                <input type="text" onChange={ (e)=> { setSearchQn(e.target.value) } } required/>
-                <button onClick={()=>{getKuralsForQuery(searchQn)}}>AI Search</button>
+                <input className={style.aiSearchBox} type="text" onChange={ (e)=> { setSearchQn(e.target.value) } } required/>
+                <button onClick={()=>{getKuralsForQuery(searchQn)}}>✨ AI Search</button>
             </div>
         </div>
     );

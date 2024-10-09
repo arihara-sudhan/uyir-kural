@@ -16,8 +16,27 @@
 
 .kuralDiv {
     display: flex;
-    border: 1px solid black;
+    border: 1px solid rgba(0,0, 0, 0.2);
     padding: 0.41rem;
-    margin: 0.1rem;
+    margin: 0.01rem;
     border-radius: 1rem;
+    background-color: var(--fg_color);
+    margin-bottom: 0.81rem;
+    font-size: 1.5vw;
+}
+
+.kuralVilakkam {
+    font-size: 1.8vw;
+}
+
+@media (max-width: 1000px) {
+    .numberCircle {
+        margin-right: 0.4rem;
+    }
+    .kuralDiv {
+        font-size: 3vw;
+    }
+    .kuralVilakkam {
+        font-size: 5vw;
+    }        
 }

@@ -8,9 +8,39 @@
     position: fixed;
 }
 
+.bannerHead {
+    background-image: url("./assets/valluvar8.jpg");
+    display: none;
+}
+
 @media (max-width: 1000px) {
     .banner {
-        position: static;
+        display: none;
+    }
+    .bannerHead {
         display: block;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: var(--txt-color);
+    }
+    .bannerHead h1 {
+        width: 100%;
+        font-size: 12vw;
+        font-weight: bolder;
+        background-color: rgba(0,0,0,0.4);
+    }
+    .bannerHead h3 {
+        font-size: 5vw;
+        padding-bottom: 1rem;
+        background-color: rgba(0,0,0,0.4);
     }
 }

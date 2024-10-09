@@ -41,3 +41,9 @@ button {
     font-size: 5vw;
     padding: 1rem;
 }
+
+@media (max-width: 1000px) {
+    .bannerHeading {
+        display: none;
+    }
+}

@@ -20,12 +20,13 @@ input, select {
 }
 
 .aiSearchBox, button {
-    width: 20%;
+    width: 30%;
     border-radius: 0.1rem;
     padding: 0.5%;
+    font-size: 100%;
 }
 button {
-    width: 10%;
+    width: 20%;
 }
 
 @media (max-width: 1000px) {
@@ -36,5 +37,17 @@ button {
     button {
         border-radius: 0.1rem;
         font-size: 3vw;
+    }
+    .aiSearchBox, button {
+        font-size: 2vw;
+        padding: 0.31rem;
+    }
+    .aiSearchBox {
+        width: 30%;
+    }
+    button {    
+        width: 25%;
+        border: none;
+        font-size: 100%;
     }
 }

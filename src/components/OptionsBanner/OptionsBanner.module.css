@@ -30,6 +30,10 @@ button {
 }
 
 @media (max-width: 1000px) {
+    .optionBanner {
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+    }    
     select {
         width: 30%;
         font-size: 3vw;

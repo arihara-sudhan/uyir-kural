@@ -10,3 +10,10 @@ select {
 .optionBanner {
     margin-bottom: 1rem;
 }
+
+@media (max-width: 1000px) {
+    select {
+        width: 30%;
+        font-size: 3vw;
+    }
+}

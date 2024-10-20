@@ -6,6 +6,7 @@ export default function MetaSelector(props) {
     const [paal, setPaal] = useState("அறம்");
     const [iyal, setIyal] = useState("பாயிரவியல்");
     const [searchQn, setSearchQn] = useState("");
+    const [aiSearchEnabled, setAiSearchEnabled] = useState(false);
 
     const paalOptions = Object.keys(Meta);
     const iyalOptions = paal in Meta ? Object.keys(Meta[paal]) : [];
@@ -52,10 +53,12 @@ export default function MetaSelector(props) {
                     </option>
                 ))}
             </select>
-            <div>
-                <input className={style.aiSearchBox} type="text" onChange={ (e)=> { setSearchQn(e.target.value) } } required/>
-                <button onClick={()=>{getKuralsForQuery(searchQn)}}>✨ AI Search</button>
-            </div>
+            {aiSearchEnabled && 
+                <div>
+                    <input className={style.aiSearchBox} type="text" onChange={ (e)=> { setSearchQn(e.target.value) } } required/>
+                    <button onClick={()=>{getKuralsForQuery(searchQn)}}>✨ AI Search</button>
+                </div>
+            }
         </div>
     );
 }

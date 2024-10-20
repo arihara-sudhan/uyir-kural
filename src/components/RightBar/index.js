@@ -14,6 +14,7 @@ export default function Banner(){
     return (
         <div className={style.banner}>
             <h1 className={style.bannerHeading}>உயிர்க்குறள்</h1>
+            <h3 className={style.bannerHeadingTwo}><a href="https://arihara-sudhan.github.io" target="_blank">உரையாசிரியர்</a></h3>
             <OptionsBanner changeKural={setKural} setKuralMatches={setKuralMatches} />
             {kuralMatches.length > 0 ? (
                 kuralMatches.map((record) => (

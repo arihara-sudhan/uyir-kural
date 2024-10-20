@@ -4,6 +4,12 @@
     font-family: "Roboto", sans-serif;
 }
 
+.uraiAasiriyar {
+    background-color: red;
+    position: fixed;
+    right: 0;
+}
+
 input {
     padding: 0.1rem;
     margin: 0.4rem;
@@ -40,6 +46,12 @@ button {
 .bannerHeading {
     font-size: 5vw;
     padding: 1rem;
+    padding-bottom: 0;
+}
+
+.bannerHeadingTwo {
+    margin: 0.1rem;
+    margin-bottom: 0.8rem;
 }
 
 @media (max-width: 1000px) {

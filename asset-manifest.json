@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/uyir-kural/static/css/main.2f739b39.css",
-    "main.js": "/uyir-kural/static/js/main.781f20be.js",
+    "main.js": "/uyir-kural/static/js/main.552381a5.js",
     "static/js/153.3a992e1c.chunk.js": "/uyir-kural/static/js/153.3a992e1c.chunk.js",
     "static/js/833.ecdf600a.chunk.js": "/uyir-kural/static/js/833.ecdf600a.chunk.js",
     "static/js/665.97ef24ef.chunk.js": "/uyir-kural/static/js/665.97ef24ef.chunk.js",
     "static/js/354.c81d7ef3.chunk.js": "/uyir-kural/static/js/354.c81d7ef3.chunk.js",
     "static/js/736.49906488.chunk.js": "/uyir-kural/static/js/736.49906488.chunk.js",
     "static/js/504.756d8b18.chunk.js": "/uyir-kural/static/js/504.756d8b18.chunk.js",
-    "static/js/971.2291734e.chunk.js": "/uyir-kural/static/js/971.2291734e.chunk.js",
+    "static/js/971.e5ee4769.chunk.js": "/uyir-kural/static/js/971.e5ee4769.chunk.js",
     "static/js/321.7d7de537.chunk.js": "/uyir-kural/static/js/321.7d7de537.chunk.js",
     "static/js/602.84a7109d.chunk.js": "/uyir-kural/static/js/602.84a7109d.chunk.js",
     "static/js/70.5a15be48.chunk.js": "/uyir-kural/static/js/70.5a15be48.chunk.js",
@@ -30,10 +30,10 @@
     "static/media/valluvar8.jpg": "/uyir-kural/static/media/valluvar8.4357c85002c6b046f7ad.jpg",
     "index.html": "/uyir-kural/index.html",
     "main.2f739b39.css.map": "/uyir-kural/static/css/main.2f739b39.css.map",
-    "main.781f20be.js.map": "/uyir-kural/static/js/main.781f20be.js.map"
+    "main.552381a5.js.map": "/uyir-kural/static/js/main.552381a5.js.map"
   },
   "entrypoints": [
     "static/css/main.2f739b39.css",
-    "static/js/main.781f20be.js"
+    "static/js/main.552381a5.js"
   ]
 }

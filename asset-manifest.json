@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uyir-kural/static/css/main.2f739b39.css",
-    "main.js": "/uyir-kural/static/js/main.552381a5.js",
+    "main.js": "/uyir-kural/static/js/main.57f775fa.js",
     "static/js/153.3a992e1c.chunk.js": "/uyir-kural/static/js/153.3a992e1c.chunk.js",
     "static/js/833.ecdf600a.chunk.js": "/uyir-kural/static/js/833.ecdf600a.chunk.js",
     "static/js/665.97ef24ef.chunk.js": "/uyir-kural/static/js/665.97ef24ef.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/70.5a15be48.chunk.js": "/uyir-kural/static/js/70.5a15be48.chunk.js",
     "static/js/706.be60ddcf.chunk.js": "/uyir-kural/static/js/706.be60ddcf.chunk.js",
     "static/js/729.6e77d690.chunk.js": "/uyir-kural/static/js/729.6e77d690.chunk.js",
+    "static/js/442.f34a3969.chunk.js": "/uyir-kural/static/js/442.f34a3969.chunk.js",
     "static/js/490.4aad5ebf.chunk.js": "/uyir-kural/static/js/490.4aad5ebf.chunk.js",
     "static/js/47.b09b4249.chunk.js": "/uyir-kural/static/js/47.b09b4249.chunk.js",
     "static/js/871.207e1dd7.chunk.js": "/uyir-kural/static/js/871.207e1dd7.chunk.js",
@@ -21,6 +22,7 @@
     "static/js/466.b869ecca.chunk.js": "/uyir-kural/static/js/466.b869ecca.chunk.js",
     "static/js/427.7e309c50.chunk.js": "/uyir-kural/static/js/427.7e309c50.chunk.js",
     "static/js/4.a9a2e2b8.chunk.js": "/uyir-kural/static/js/4.a9a2e2b8.chunk.js",
+    "static/js/772.41c0bfdf.chunk.js": "/uyir-kural/static/js/772.41c0bfdf.chunk.js",
     "static/js/572.8aa14e4b.chunk.js": "/uyir-kural/static/js/572.8aa14e4b.chunk.js",
     "static/js/178.e8952e80.chunk.js": "/uyir-kural/static/js/178.e8952e80.chunk.js",
     "static/js/575.01dc9e6e.chunk.js": "/uyir-kural/static/js/575.01dc9e6e.chunk.js",
@@ -30,10 +32,10 @@
     "static/media/valluvar8.jpg": "/uyir-kural/static/media/valluvar8.4357c85002c6b046f7ad.jpg",
     "index.html": "/uyir-kural/index.html",
     "main.2f739b39.css.map": "/uyir-kural/static/css/main.2f739b39.css.map",
-    "main.552381a5.js.map": "/uyir-kural/static/js/main.552381a5.js.map"
+    "main.57f775fa.js.map": "/uyir-kural/static/js/main.57f775fa.js.map"
   },
   "entrypoints": [
     "static/css/main.2f739b39.css",
-    "static/js/main.552381a5.js"
+    "static/js/main.57f775fa.js"
   ]
 }
